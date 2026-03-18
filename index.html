@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Inner Peace</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+<header class="site-header">
+  <div class="logo-wrap">
+    <img src="ip_logo.webp" alt="Inner Peace logo" class="logo" />
+    <span class="site-title">Inner Peace</span>
+  </div>
+<div>
+ <nav>
+  <ul class="sidebar">
+    <li class="close-button" onclick="hideSidebar()"><a href="#"><img src="closeicon.svg" height="26" viewBox="0 96 960 960" width="26"></a></li>
+    <li><a href="#home" onclick="hideSidebar()">Home</a></li>
+    <li><a href="#about" onclick="hideSidebar()">About</a></li>
+    <li><a href="#mindfulness" onclick="hideSidebar()">Practices</a></li>
+    <li><a href="#resources" onclick="hideSidebar()">Resources</a></li>
+    <li><a href="#contact" onclick="hideSidebar()">Contact</a></li></ul>
+  <ul>
+    <li class="hideOnMobile"><a href="#home" onclick="hideSidebar()">Home</a></li>
+    <li class="hideOnMobile"><a href="#about" onclick="hideSidebar()">About</a></li>
+    <li class="hideOnMobile"><a href="#mindfulness" onclick="hideSidebar()">Practices</a></li>
+    <li class="hideOnMobile"><a href="#resources" onclick="hideSidebar()">Resources</a></li>
+    <li class="hideOnMobile"><a href="#contact" onclick="hideSidebar()">Contact</a></li>
+  <li class="menu-button" onclick="showSidebar()"><img src="menutoggleicon.svg" height="26" viewBox="0 96 960 960" width="26"></a></li></ul>
+  </nav></div></header>
+  <!-- Hero -->
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <h1>Find Your Inner Peace</h1>
+        <p class="lead">Journey towards calmness through mindfulness, meditation, and self-discovery.</p>
+        <button class="btn-primary" id="journeyBtn" aria-controls="journeyText">Begin Your Journey</button>
+
+        <div id="journeyText" class="journey-text" aria-hidden="false">
+          <p>🌿 <strong>Step 1:</strong> Close your eyes and take a deep breath.</p>
+          <p>☁ <strong>Step 2:</strong> Notice your thoughts and let them pass without judgment.</p>
+          <p>💫 <strong>Step 3:</strong> Return your attention to the breath — be kind to yourself.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discover Section>-->
+     <section>
+      <h1><center>Discover Mindfulness</center></h1>
+      <p><center>Transform your mind,transform your life</center></p> 
+      <div class="cards-container">
+
+      <!-- Card 1 -->
+      <div class="card">
+        <div class="icon">🧠</div>
+        <h3>Rewire Your Brain</h3>
+        <p>Neuroplasticity in action — just 10 minutes a day physically rewires your brain for better focus and emotional control.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Instant Calm</h3>
+        <p>Access immediate stress relief through breathing and grounding techniques that soothe your nervous system.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <div class="icon">🎯</div>
+        <h3>Peak Performance</h3>
+        <p>Achieve flow states more easily and unlock your full potential in work, creativity, and personal growth.</p>
+      </div>
+  </section>
+
+  <section><div class="stats">
+      <div><h1>85%</h1><p>Stress Reduction</p></div>
+      <div><h1>3X</h1><p>Better Focus</p></div>
+      <div><h1>10K+</h1><p>Happy Members</p></div>
+      <div><h1>4.9★</h1><p>User Rating</p></div>
+    </div>
+  </section>
+
+  <section class="why" id="about">
+    <h3>Why Choose Inner Peace?</h3>
+    <div class="features">
+      <div>Science-backed techniques proven by neuroscience</div>
+      <div>Personalized journey adapted to your needs</div>
+      <div>Expert guidance from certified instructors</div>
+      <div>Track your progress with real metrics</div>
+      <div>Brought to you by Tooplate website</div>
+    </div>
+  </section>
+
+  <section class="mindfulness" id="mindfulness">
+    <h1>Mindfulness Practices</h1>
+      Master these core practices to bulid your mindfulnes toolkit
+    </h1>
+    <div class="practice-card">
+      <h4>Foundation Meditation</h4>
+      <p>Begin with guided sessions focusing on posture, attention, and awareness.</p>
+      <div class="tags">
+        <span>Stress Reduction</span><span>Mental Clarity</span><span>Emotional Balance</span><span>Better Sleep</span>
+      </div>
+    </div>
+    <div class="practice-card">
+      <h4>Conscious Breathing</h4>
+      <p>Master breathing techniques that calm your nervous system and reduce anxiety.</p>
+      <div class="tags">
+        <span>Focus</span><span>Relaxation</span><span>Energy Control</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="resources" id="resources">
+    <h1>Resources & Tools</h1>
+    Everything you need to support your mindfulness practice<br>
+     <div class="item-container">
+      <!-- Item 1 -->
+        <div class="item">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="">
+        <h4>Morning Meditation</h4><p>
+      Start your day with clarity and intention through our 15-minute morning practice.</p>
+      </div>
+       <!-- Item 2 -->
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="">
+        <h4>Stress Relief Session</h4><p>
+      Quick 10-minute guided meditation for immediate stress and anxiety relief.</p>
+      </div>
+       <!-- Item 3 -->
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="">
+        <h4>Sleep Meditation</h4><p>
+       Peaceful bedtime meditation to help you unwind and prepare for restful sleep.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="connect" id="contact">
+    <h1><center>Connect with us</h1>
+      <div class="container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+
+            <div class="info-box">
+                <h3>Visit Us</h3>
+                <p>123 Wellness Street<br>Menduli City, NC 12345</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Email</h3>
+                <p>help@innerpeace.com<br>support@innerpeace.com</p>
+            </div>
+
+            <div class="info-box">
+                <h3>Live Chat</h3>
+                <p>Available 24/7 for urgent support</p>
+            </div>
+
+            <div class="social-icons">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+          <label for="name">Your Name:</label>
+    <input type="text" id="name" placeholder="Enter Your Name" pattern="[A-Za-z ]+" required>
+    <br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <br><br>
+     <label for="name">Subject:</label>
+    <input type="textarea" id="name" placeholder="Enter Your Name" pattern="[A-Za-z ]+" required>
+    <br><br>
+     <button type="submit">Submit</button>
+        </div>
+    </div></section>
+
+</main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+     Privacy policy &nbsp Terms of Service &nbsp Support
+    <p>&copy; 2025 Inner Peace. All rights reserved.</p>
+  </footer>
+<script>
+  function showSidebar(){
+    const sidebar=document.querySelector('.sidebar')
+    sidebar.style.display='flex';
+  }
+  function hideSidebar(){
+    const sidebar=document.querySelector('.sidebar')
+    sidebar.style.display= 'none';
+  }
+  document.getElementById("journeyBtn").addEventListener("click", function() {
+    const journeyText = document.getElementById("journeyText");
+    
+    if (journeyText.style.display === "block") {
+      journeyText.style.display = "none";
+      this.textContent = "Begin Your Journey";
+    } else {
+      journeyText.style.display = "block";
+      this.textContent = "Hide Journey Steps";
+    }
+  });
+</script>
+</body>
+</html>
